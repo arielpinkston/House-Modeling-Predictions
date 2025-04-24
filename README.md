@@ -1,2 +1,2 @@
 # House-Modeling-Predictions
-This program uses linear regression to predict real estate tax prices. It trains on features like beds, baths, square footage, and year built from a cleaned dataset. After evaluating the model, it accepts user input to estimate a home’s tax price based on its details.
+This Python program uses linear regression to predict real estate tax prices based on property features. It loads a cleaned dataset, selects key features like number of beds, baths, square footage, and year built, and splits the data into training and test sets. The model is trained using scikit-learn’s LinearRegression and evaluated on test data. After training, it can take user input for a house’s details and predict the estimated tax price based on the model.
